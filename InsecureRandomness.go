@@ -21,7 +21,7 @@ func encrypt(data []byte, password string) []byte {
 	gcm, _ := cipher.NewGCM(block)
 
 	nonce := make([]byte, gcm.NonceSize())
-	random := rand.New(rand.NewSource(999))
+	random := rand.New(rand.NewSource(9999))
 	io.ReadFull(random, nonce)
 
 	ciphertext := gcm.Seal(nonce, nonce, data, nil)
