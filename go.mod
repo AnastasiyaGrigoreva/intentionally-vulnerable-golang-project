@@ -7,8 +7,9 @@ require (
 	github.com/go-gitea/gitea v1.2.3
 	github.com/gophish/gophish v0.1.2
 	github.com/kr/pretty v0.1.0 // indirect
+	github.com/lib/pq v1.10.9
 	github.com/stretchr/testify v1.4.0 // indirect
-	golang.org/x/crypto v0.17.0
+	golang.org/x/crypto v0.31.0
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
